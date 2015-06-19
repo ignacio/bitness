@@ -23,6 +23,15 @@ Automated tests are run with Lua 5.1, 5,2 and 5.3 and LuaJIT 2.0.4, 2.1 on both 
 
 It won't work on your [ZX Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum) or your old trusty [80286](https://en.wikipedia.org/wiki/Intel_80286). Tests probably won't run out of the box on ARM. Patches welcome.
 
+## How do I install it? #
+You can just use LuaRocks:
+
+~~~~
+luarocks install bitness
+~~~~
+
+or just copy the file _bitness.lua_ into Lua's path.
+
 ## License #
 **bitness** is available under the MIT license.
 
