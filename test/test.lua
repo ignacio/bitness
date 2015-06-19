@@ -5,8 +5,13 @@ local match = {
 
 local detected_arch = require("bitness")()
 
+print("Detected arch is "..tostring(detected_arch))
+print("APPVEYOR?", os.getenv("APPVEYOR"))
+print("TRAVIS?", os.getenv("TRAVIS"))
+print("PLATFORM?", os.getenv("PLATFORM"))
+
 if os.getenv("APPVEYOR") then
-	local os_arch = os.getenv("PLATFORM")
+	local os_arch = os.getenv("PLATFORM"):lower()
 	assert(match[os_arch] == detected_arch)
 
 elseif os.getenv("TRAVIS") then
