@@ -21,7 +21,7 @@ The module exports a single function that when called will return 32, 64 or thro
 ## Where does it work? #
 Automated tests are run with Lua 5.1, 5,2 and 5.3 and LuaJIT 2.0.4, 2.1 on both x86 and x64 platforms.
 
-It won't work on your [ZX Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum)or your old trusty [80286](https://en.wikipedia.org/wiki/Intel_80286). Tests probably won't run out of the box on ARM. Patches welcome.
+It won't work on your [ZX Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum) or your old trusty [80286](https://en.wikipedia.org/wiki/Intel_80286). Tests probably won't run out of the box on ARM. Patches welcome.
 
 ## License #
 **bitness** is available under the MIT license.
