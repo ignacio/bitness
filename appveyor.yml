@@ -17,7 +17,7 @@ environment:
   - LJ_VER: 2.1
 
 platform:
-#  - x86
+  - x86
   - x64
 
 cache:
