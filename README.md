@@ -1,6 +1,8 @@
 # bitness #
 
 [![Build Status](https://travis-ci.org/ignacio/bitness.png?branch=master)](https://travis-ci.org/ignacio/bitness)
+[![Build status](https://ci.appveyor.com/api/projects/status/6rbmp841rlcy6w0j?svg=true)](https://ci.appveyor.com/project/ignacio/bitness)
+[![License](http://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 
 Determines the bitness of Lua.
 
